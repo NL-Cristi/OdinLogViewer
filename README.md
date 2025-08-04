@@ -149,7 +149,7 @@ OdinLogViewer/
 ### Key Features
 - **Virtual Scrolling**: Only renders visible lines for performance
 - **Dynamic Font Loading**: Custom font support with fallback to system default
-- **Font Customization**: Any .ttf font file can be used by renaming it to `MyFont.ttf`
+- **Font Customization**: Any .ttf font file can be used by renaming it to `MyFont.ttf` (falls back to Raylib's built-in default font)
 - **Memory Management**: Efficient string handling and cleanup
 - **Cross-Platform**: Single codebase for Windows, Linux, and macOS
 
