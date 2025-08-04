@@ -1,0 +1,18 @@
+This is a test file to verify the embedded CaskaydiaCove Nerd Font is working correctly.
+
+The font should display with proper ligatures and special characters.
+
+Test characters:
+- → ← ↑ ↓
+- ⚡ ⭐ 🔥 💯
+- 1234567890
+- ABCDEFGHIJKLMNOPQRSTUVWXYZ
+- abcdefghijklmnopqrstuvwxyz
+
+Special programming characters:
+- => <= >= != ==
+- && || !
+- () [] {} <>
+- /* */ //
+
+This should all display with the embedded CaskaydiaCove Nerd Font.
