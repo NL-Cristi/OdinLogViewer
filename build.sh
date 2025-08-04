@@ -2,7 +2,8 @@
 echo "Building OdinLogAnalyzer..."
 
 # Build for Linux
-cp ./
+cp ./src/resources/CascadiaCode/CaskaydiaCoveNerdFont-Regular.ttf ./Binary/MyFont.ttf
+cp ./src/resources/CascadiaCode/CaskaydiaCoveNerdFont-Regular.ttf ./MyFont.ttf
 odin build src -out:OdinLogAnalyzer
 
 if [ $? -eq 0 ]; then

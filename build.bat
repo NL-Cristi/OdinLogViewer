@@ -1,6 +1,7 @@
 @echo off
 echo Building OdinLogViewer for Windows (GUI mode)...
-copy .\MyFont.ttf .\Binary\MyFont.ttf
+copy .\src\resources\CascadiaCode\CaskaydiaCoveNerdFont-Regular.ttf .\Binary\MyFont.ttf
+copy .\src\resources\CascadiaCode\CaskaydiaCoveNerdFont-Regular.ttf .\MyFont.ttf
 odin build .\src -out:.\Binary\OdinLogViewer.exe -subsystem:windows
 
 if %ERRORLEVEL% EQU 0 (
